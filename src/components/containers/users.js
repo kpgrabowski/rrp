@@ -10,9 +10,9 @@ class User extends Component {
         }
     }
 
-    onUserUpdate(event){
+    onUserUpdate(field, event){
         console.log("Siemak");
-        console.log('onUserUpdate: ' + event.target.value);
+        console.log('onUserUpdate: ' + field + '==' + event.target.value);
     }
 
     render(){
@@ -24,7 +24,6 @@ class User extends Component {
                 <input onChange={this.onUserUpdate.bind(this, 'userName')}
                        type="text"
                        placeholder="userName"
-
                         />
                 <br/>
                 <br/>

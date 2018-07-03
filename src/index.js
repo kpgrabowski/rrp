@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import store from './stores'
 import { Provider } from 'react-redux'
-import User from "./components/containers/Users";
+import User from "./components/containers/users";
 // import Intro from './components/Intro'
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * *
